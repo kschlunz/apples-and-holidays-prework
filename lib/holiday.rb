@@ -56,7 +56,7 @@ def add_new_holiday_with_supplies(holiday_hash, season, holiday_name, supply_arr
 
   holiday_hash.each do |seaon, holiday|
       holiday.each do |attribute, supply|
-          
+
       end
   end
 
@@ -74,8 +74,7 @@ holiday_hash.each do |key, value|
   end
 end
 end
-
-puts supplies.flatten.uniq
+supplies.flatten.uniq
 
 end
 
