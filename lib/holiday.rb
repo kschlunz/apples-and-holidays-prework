@@ -56,7 +56,7 @@ def add_new_holiday_with_supplies(holiday_hash, season, holiday_name, supply_arr
 
   holiday_hash.each do |seaon, holiday|
       holiday.each do |attribute, supply|
-          
+
       end
   end
 
@@ -94,14 +94,14 @@ def all_holidays_with_bbq(holiday_hash)
   # include the string "BBQ"
   bbq_holiday = []
   holiday_hash.each do|season, holiday|
-        
+
         holiday.each do |holiday, supply|
                 if supply ==  "BBQ"
-                supply.select do |holiday| 
+                supply.select do |holiday|
                     bbq_holiday << holiday
-              end 
+              end
           end
-       
+
         end
         bbq_holiday
     end
